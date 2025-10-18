@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Fashion Male</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top Bar -->
+  <div class="top d-flex justify-content-between align-items-center px-4 py-2 text-white">
+    <p class="m-0 small">Free shipping, 30-day return or refund guarantee.</p>
+    <div class="tlinks">
+      <a href="#">SIGN IN</a>
+      <a href="#">FAQS</a>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-light shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" height="30" alt="Fashion Male Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link text-dark" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="index.html">Categories</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="index.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="index.html">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link active text-dark" href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="icons d-flex align-items-center">
+        <a class="text-dark me-3" href="#"><i class="fas fa-user"></i></a>
+        <a class="text-dark me-3" href="#"><i class="far fa-heart"></i></a>
+        <a class="text-dark me-3" href="#"><i class="fas fa-shopping-cart"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold text-uppercase">Contact Us</h2>
+        <p class="text-muted">We’d love to hear from you! Please fill out the form below.</p>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        <!-- Contact Form -->
+        <div class="col-lg-6">
+          <div class="card border-0 shadow p-4 h-100">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label fw-semibold">Your Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label fw-semibold">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label fw-semibold">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Write your message..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark w-100 rounded-3">Send Message</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Map -->
+        <div class="col-lg-6">
+          <div class="shadow-sm rounded-4 overflow-hidden h-100">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.492356736316!2d67.03724437545317!3d24.813384577956634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eaa5a8e1dbb%3A0x48ff1c8b7aa1d1d!2sAptech%20Pakistan!5e0!3m2!1sen!2s!4v1698650000000!5m2!1sen!2s"
+              width="100%"
+              height="100%"
+              style="border: 0; min-height: 400px;"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (Your Original) -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <h5>About Us</h5>
+          <p>We are a fashion store dedicated to providing the latest trends and high-quality clothing for our customers.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5>Customer Service</h5>
+          <ul class="footer-links">
+            <li><a href="#">Shipping Policy</a></li>
+            <li><a href="#">Returns & Refunds</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5>Contact Us</h5>
+          <ul class="footer-links">
+            <li><i class="fas fa-map-marker-alt me-2"></i> 123 Fashion Street, New York</li>
+            <li><i class="fas fa-phone me-2"></i> +1 234 567 8900</li>
+            <li><i class="fas fa-envelope me-2"></i> info@fashionstore.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2025 Fashion Store. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
